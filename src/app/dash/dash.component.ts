@@ -12,8 +12,8 @@ export class DashComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(localStorage.getItem('SessionUser'))
-    this.user = localStorage.getItem('SessionUser')
+    // console.log(localStorage.getItem('SessionUser'))
+    // this.user = localStorage.getItem('SessionUser')
   }
 
 }
