@@ -1,0 +1,40 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* new content */
+
+.example-card {
+  height: 400px;
+  max-width: 300px;
+  min-width: 300px;
+  margin: 20px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.main-div{
+  display: flex;
+  flex-flow: wrap;
+  align-content: space-around;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+}
